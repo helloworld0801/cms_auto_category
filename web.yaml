@@ -1,0 +1,26 @@
+#phpcms.com
+test1:
+    domain: http://test1.my.com
+    login_url: /index.php?m=admin&c=index&a=login&ignore=1
+    out_url: /index.php?m=admin&c=index&a=public_logout
+    username: admin
+    password: admin
+    type: phpcms
+    category:
+        - mold: pc
+          category_url: /index.php?m=content&c=create_html&a=category
+
+        - mold: mobile
+          category_url: /index.php?m=content&c=mobile_create_html&a=category
+
+#diguo.com
+test2:
+    domain: http://test2.my.com
+    login_url: /e/quan7-ad/
+    out_url: /e/quan7-ad/
+    username: admin
+    password: admin
+    type: diguo
+    category:
+        - mold: pc
+          category_url: /e/quan7-ad/ReHtml/ChangeData.php
