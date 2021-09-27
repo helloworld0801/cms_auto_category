@@ -1,5 +1,5 @@
-# cms_column_auto_update
-phpcms和帝国cms自动更新栏目页
+# cms_auto_category
+cms category自动化更新，支持帝国cms和phpcms
 
 # 简介
 因为运营的无脑需求，想要实现栏目页自动更新。  
